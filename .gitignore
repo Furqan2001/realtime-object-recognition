@@ -1,0 +1,15 @@
+# Build output
+*.o
+bin/
+
+# Pretrained model (download with `make model`, see README)
+data/*.onnx
+
+# Training databases generated at runtime
+*.csv
+
+# OS / editor
+.DS_Store
+.claude/
+.vscode/
+.idea/
